@@ -12,4 +12,8 @@ $ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 cat (paste)<path to id_rsa.pub> # Add this key to your GitHub account
 //copy ssh key
 
+//(again addding something)
+git status
+git add .
+git commit -m "added filename"
 git push origin master
